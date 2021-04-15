@@ -5,10 +5,15 @@ Credit Fraud Prediction
 With the dataset from kaggle, it shows the details of transactions that have taken place in the span of 2 days and also labels the ones that were fradulent. I will use several models to fit the data which ill explain more below. The summary of the results are in the table below
 ## roc_auc score (%)
 Logistic Regression	91.47
+
 SVC	                68.84
+
 KNN	                89.32
+
 XGBoost	            88.22
+
 Grid_XGboost	       87.59
+
 Random Forest	      83.29
 
 ## Logistic Regression Model
