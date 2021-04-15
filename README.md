@@ -1,8 +1,15 @@
 # Which_is_Fraud
-### The original file is too big to upload but can be found here https://www.kaggle.com/mlg-ulb/creditcardfraud
+### The original file is too big to upload but can be found here https://www.kaggle.com/mlg-ulb/creditcardfraud 
 
 Credit Fraud Prediction
-With the dataset from kaggle, it shows the details of transactions that have taken place in the span of 2 days and also labels the ones that were fradulent. I will use several models to fit the data which ill explain more.
+With the dataset from kaggle, it shows the details of transactions that have taken place in the span of 2 days and also labels the ones that were fradulent. I will use several models to fit the data which ill explain more below. The summary of the results are in the table below
+## roc_auc score (%)
+Logistic Regression	91.47
+SVC	                68.84
+KNN	                89.32
+XGBoost	            88.22
+Grid_XGboost	       87.59
+Random Forest	      83.29
 
 ## Logistic Regression Model
 Uses a logit function that outputs values between 0 and 1. If the prediction is above 50%, then the classification is 1, else the classification will be 0.
@@ -23,4 +30,4 @@ XGBoost is a sequential tree that uses parallel processing to increase speed. It
 ## Random Forest
 Uses a bunch of decision trees that are formed with bootstrapping which is random sampling with replacement and several features might be used more than once. The model counts the votes of all the trees and classifies the prediction base on the highest number of votes among the trees.
 
-Thanks for reading :)
+For more info, refer to the main file. Thanks for reading!
